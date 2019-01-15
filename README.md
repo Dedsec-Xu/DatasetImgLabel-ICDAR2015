@@ -18,7 +18,7 @@ MAC OSX version implemented Pixel-Vision auto label function. But my macdeployqt
 
 
 ## Prerequisites
- (Only tested on) macOS Mojave 10.14.2 and Windows 10 with:
+(Only tested on) macOS Mojave 10.14.2 and Windows 10 with:
 * Python 2.7
 * Tensorflow-gpu >= 1.1
 * opencv2
@@ -34,7 +34,7 @@ MAC OSX version implemented Pixel-Vision auto label function. But my macdeployqt
 open file
 
 * Press open file button and select a image.(ctrl + o)
- 
+
 open multiple files
 
 * Press open file dir button and select a path, then double click a file name in the right side. (ctrl + d)
@@ -52,14 +52,14 @@ auto label
 
 * Click auto label(this may take a while)
 
-Status bar will always show what are you doing.
+Status bar will always show what you are doing and give instructions to assist you.
 
-You can also click help button for more.
+You can also click help button for more(I'll translate it later).
 
-Annotations are saved as txt files in ICDAR2015 format. You can also load ICDAR2013 format.
+Annotations are saved as txt files in ICDAR2015 format. You can also load ICDAR2013 format with openTxt.
 
 ## Windows 10
-Usage is the same with macOs version except for auto label, which is not yet implemented.
+Usage is the same with macOs version except for auto label, which is not yet implemented. But it still works well as a functioning labeler.
 
 # Test on ICDAR2013
 The reported results on ICDAR2013  are:
