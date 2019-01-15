@@ -82,6 +82,8 @@ I also expect it to be higher in ICDAR2015 dataset because it can detect oblique
 ![Image text](./keynote/放缩.gif)
 ![Image text](./keynote/UI2.gif)
 
+button icons are changed in my final version because I think these may be subject to copyright.
+
 
 # Acknowlegement
 1.https://tensorflow.google.cn/ 
