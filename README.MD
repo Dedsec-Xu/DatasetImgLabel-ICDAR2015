@@ -1,4 +1,10 @@
+<img src="https://raw.githubusercontent.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015/master/web_hi_res_512.png" width=96 height=96 />
+
 # LabelImg
+
+[![GitHub](https://img.shields.io/github/license/Dedsec-Xu/DatasetImgLabel-ICDAR2015.svg?label=License)](https://github.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Dedsec-Xu/DatasetImgLabel-ICDAR2015.svg)](https://github.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015) [![OpenCV](https://img.shields.io/badge/OpenCV-4.0.1-red.svg)](https://opencv.org/) [![Qt](https://img.shields.io/badge/Qt-5.11.2-brightgreen.svg)](https://www.qt.io/)
+
+---
 
 LabelImg is a graphical image annotation tool.
 
