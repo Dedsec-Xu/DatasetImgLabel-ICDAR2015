@@ -1,10 +1,4 @@
-<img src="https://raw.githubusercontent.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015/master/web_hi_res_512.png" width=96 height=96 />
-
 # LabelImg
-
-[![GitHub](https://img.shields.io/github/license/Dedsec-Xu/DatasetImgLabel-ICDAR2015.svg?label=License)](https://github.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Dedsec-Xu/DatasetImgLabel-ICDAR2015.svg)](https://github.com/Dedsec-Xu/DatasetImgLabel-ICDAR2015) [![OpenCV](https://img.shields.io/badge/OpenCV-4.0.1-red.svg)](https://opencv.org/) [![Qt](https://img.shields.io/badge/Qt-5.11.2-brightgreen.svg)](https://www.qt.io/)
-
----
 
 LabelImg is a graphical image annotation tool.
 
@@ -14,7 +8,7 @@ Coded for a software engineering curriculum design.
 # Installation
 ## Windows 10
 
-Win10 User can open released version directly by clicking LabelImg.exe.
+Win10 User can open released version directly by clicking LabelImg.exe.
 
 Current release build (v0.9) on window haven't implemented Pixel-Vision auto label function yet due to python version and tensorflow version issue.
 
@@ -35,7 +29,7 @@ MAC OSX version implemented Pixel-Vision auto label function. But my macdeployqt
 
 # Usage
 ## macOS
-There are two ways of using this program: editing single file and editing multiple files
+There are two ways of using this program: editing single file and editing multiple files
 
 open file
 
@@ -67,15 +61,16 @@ Annotations are saved as txt files in ICDAR2015 format. You can also load ICDAR2
 ## Windows 10
 Usage is the same with macOs version except for auto label, which is not yet implemented. But it still works well as a functioning labeler.
 
-# Test on ICDAR2015
-The reported results on ICDAR2015  are:
+# Test on ICDAR2013
+The reported results on ICDAR2013  are:
 
-|Model|Recall|Precision|H-mean|
-|---|---|---|---|
-|PixelLink|81.5|85.4|83.2|
+|Model|totalM|totalN|totalK|Recall|Precision|H-mean|
+|---|---|---|---|---|---|---|
+|PixelLink|1095|1090|704|64.30%|64.587%|64.44%|
 
-This is lower than F-mean 83.7 from [ZJULearning/pixel_link](https://github.com/ZJULearning/pixel_link), but is enough in this scenario.
+This is lower than theoretical F-mean 83.7% from [ZJULearning/pixel_link](https://github.com/ZJULearning/pixel_link), but is enough in this scenario.
 
+I also expect it to be higher in ICDAR2015 dataset because it can detect oblique rectangle.
 
 
 
