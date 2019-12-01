@@ -1,6 +1,8 @@
-# LabelImg
+# DatasetImgLabel
 
-LabelImg is a graphical image annotation tool.
+DatasetImgLabel is a graphical image annotation tool aimed to replace LabelImg.
+
+It supported arbitrary quadrilateral annotations, machine learning assisted annotations, and dataset visualization.
 
 Coded for a software engineering curriculum design.
 
