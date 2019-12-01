@@ -1,6 +1,6 @@
 # DatasetImgLabel
 
-DatasetImgLabeler is a image annotation tool for researchers to prepare datasets in ICDAR2015 format. (similar to [tzutalin/LabelImg]https://github.com/tzutalin/labelImg))
+DatasetImgLabeler is a image annotation tool for researchers to prepare datasets in ICDAR2015 format. (similar to [tzutalin/LabelImg](https://github.com/tzutalin/labelImg))
 
 It supported arbitrary quadrilateral annotations, machine learning assisted annotations, and dataset visualization.
 
@@ -10,7 +10,7 @@ Coded for a software engineering curriculum design.
 # Installation
 ## Windows 10
 
-Win10 User can open released version directly by clicking LabelImg.exe.
+Win10 User can open released version directly by clicking LabelImg.exe.
 
 Current release build (v0.9) on window haven't implemented Pixel-Vision auto label function yet due to python version and tensorflow version issue.
 
@@ -31,7 +31,7 @@ MAC OSX version implemented Pixel-Vision auto label function. But my macdeployqt
 
 # Usage
 ## macOS
-There are two ways of using this program: editing single file and editing multiple files
+There are two ways of using this program: editing single file and editing multiple files
 
 open file
 
@@ -54,7 +54,7 @@ auto label
 
 * Click auto label(this may take a while)
 
-Status bar will always show what you are doing and give instructions to assist you.
+Status bar will always show what you are doing and give instructions to assist you.
 
 You can also click help button for more(I'll translate it later).
 
