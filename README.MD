@@ -1,6 +1,6 @@
 # DatasetImgLabel
 
-DatasetImgLabel is a graphical image annotation tool aimed to replace LabelImg.
+DatasetImgLabeler is a image annotation tool for researchers to prepare datasets in ICDAR2015 format. (similar to [tzutalin/LabelImg]https://github.com/tzutalin/labelImg))
 
 It supported arbitrary quadrilateral annotations, machine learning assisted annotations, and dataset visualization.
 
