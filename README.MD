@@ -80,8 +80,8 @@ I also expect it to be higher in ICDAR2015 dataset because it can detect oblique
 
 # Screen shots
 
-![Image text](./image/LABEL1.png)
-![Image text](./image/LABEL2.png)
+![Image text](https://github.com/Dedsec-Xu/Self-Introduction/blob/master/image/LABEL1.png)
+![Image text](https://github.com/Dedsec-Xu/Self-Introduction/blob/master/image/LABEL2.png)
 ![Image text](./keynote/修改.gif)
 ![Image text](./keynote/55DCFD386BF9ED18A5AD944679A5056D.png)
 ![Image text](./keynote/批量.gif)
